@@ -4,6 +4,8 @@
 
 ## Eric Green [@egreenmachine](https://github.com/egreenmachine)
 
+## hieyou1 [Node support] [@hieyou1](https://github.com/hieyou1)
+
 ### Previous Authors
 
 * Joseph Frazier
