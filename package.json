@@ -1,7 +1,7 @@
 {
   "name": "sip.js",
   "title": "SIP.js",
-  "description": "A SIP library for JavaScript",
+  "description": "A SIP library for JavaScript, compatible with Node.js",
   "version": "0.20.0",
   "license": "MIT",
   "main": "./lib/index.js",
@@ -29,11 +29,15 @@
     "javascript",
     "typescript"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "websocket": "^1.0.34",
+    "wrtc": "^0.4.7"
+  },
   "devDependencies": {
     "@microsoft/api-documenter": "7.7.20",
     "@microsoft/api-extractor": "7.7.11",
     "@types/jasmine": "^3.6.6",
+    "@types/websocket": "^1.0.3",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "circular-dependency-plugin": "^5.2.2",
